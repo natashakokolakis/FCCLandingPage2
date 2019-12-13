@@ -1,0 +1,125 @@
+@import url(//fonts.googleapis.com/css?family=Source+Sans+Pro|Titillium+Web:400,600,700);
+
+body {
+  padding-top: 80px;
+  background-image: url("https://images.unsplash.com/photo-1530508777238-14544088c3ed?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80");
+  color: white;
+  font-family: 'Source Sans Pro', sans serif;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+}
+
+nav {
+  position: relative;
+  height: 80px;
+  width: 100%;
+  background-color: black;
+  color: white;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  padding: 30px;
+}
+
+li a {
+  text-align: center;
+  text-decoration: none;
+  color: white;
+}
+
+#company-name {
+  position: fixed;
+  left: 20px;
+  font-size: 48px;
+  padding: 0 0 0 50px;
+}
+
+#header-img {
+  position: fixed;
+  top: 8px;
+  left: 200px;
+  width: 70px;
+}
+
+h1, h2, #company-name {
+  font-family: 'Titillium Web', sans serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: left;
+  font-size: 1.3em;
+}
+
+p {
+  text-align: left;
+}
+
+.div {
+  border-radius: 3%;
+  max-width: 600px;
+  background-color: black;
+  margin: auto;
+  padding: 20px;
+  line-height: 1.5;
+  float: left;
+}
+
+#media {
+  text-align: center;
+  width: 67%;
+  min-width:600px;
+}
+
+#contact {
+  width: 67%;
+  min-width:600px;
+}
+
+textarea {
+  width: 100%;
+  max-height: 100px;
+  border-radius: 5px;
+  border-color: lightgrey;
+  resize: none;
+  height: 200px;
+}
+
+input {
+  width: 100%;
+  height: 20px;
+  border-radius: 5px;
+}
+
+#submit {
+  border-radius: 5px;
+  cursor: pointer;
+  border-color: transparent; 
+  width: 100px;
+}
+
+#submit:hover{
+  background-color: #b3daff;
+}
+
+@media screen and (max-width: 500px){
+  body {width: 100%}
+}
